@@ -1,0 +1,13 @@
+{
+  "name": "javascript",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test_list": "node list/list.js",
+    "test_tree": "node tree/tree.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
