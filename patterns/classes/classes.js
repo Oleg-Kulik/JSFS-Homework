@@ -41,4 +41,6 @@ var device2 = new DeviceBuilder()
     .sensor2Set("light")
     .build();
 console.log(device2);
+device1.sensor1 = "light";
+console.log(device1);
 //# sourceMappingURL=classes.js.map

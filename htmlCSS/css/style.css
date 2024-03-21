@@ -4,6 +4,34 @@
     box-sizing: border-box
 }
 
-flex-container{
-     
+.flex-container{
+     display: flex;
+     flex-direction: column;
+     min-height: 100vh;
+}
+
+main{
+    display: flex;
+    flex: 1;
+}
+
+section{
+    display: flex;
+    flex: 3;
+}
+
+aside{
+    flex: 1;
+    
+}
+
+.logo{
+    display: flex;
+    flex-direction: row;
+
+}
+
+form {
+    display: flex;
+    flex-direction: column;
 }

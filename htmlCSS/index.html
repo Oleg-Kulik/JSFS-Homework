@@ -11,19 +11,66 @@
 <body>
     <div class="flex-container">
         <div class="header">
-            <img src="img/logo.jpg"/>
-            <h1>Анонимный</h1>
-            <h2>Учебный центр</h2>
-            <button>О нас</button>
+            <main>
+                <section class="flex-item item-1">
+                    <div class="logo">
+                        <img src="img/logo.jpg" />
+                        <div>
+                            Анонимный
+                            учебный центр
+                        </div>
+                    </div>
+                </section>
+                <aside class="about">
+                    <button>О нас</button>
+                </aside>
+            </main>
         </div>
         <div class="content">
-            <div class="registration">Регистрация на мероприятие</div>
-            <div class="dateandtime"></div>
+            <div class="registration">
+                <h1>Регистрация на мероприятие</h1>
+            </div>
             <div class="anketa">
-                <form></form>
+                <form>
+                    <div class="dateandtime">
+                        <div>
+                            <input type="radio" name="time" id="first" value="first">
+                            <label for="first">Вс 10:00</label>
+                        </div>
+                        <div>
+                            <input type="radio" name="time" id="second" value="second">
+                            <label for="second">Вс 10:00</label>
+                        </div>
+                    </div>
+                    <h2>Масткр-класс 12 июня</h2>
+                    <input type="text" id="lastname">
+                    <label for="lastname">Фамилия</label>
+                    <input type="text" id="firstname">
+                    <label for="firstname">Имя</label>
+                    <input type="number" id="phone">
+                    <label for="phone">Телефон</label>
+                    <input type="email" id="email">
+                    <label for="email">Эл. почта</label>
+                    <input type="text" id="birthday">
+                    <label for="birthday">Дата роджения</label>
+                    <div>
+                        <input type="checkbox" id="firsttime" name="firsttime" checked />
+                        <label for="firsttime">Я здесь буду впервые</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" id="agreement" name="agreement" checked />
+                        <label for="agreement">Я выражаю свое согласие с <a>условиями</a></label>
+                    </div>
+                    <p>Заполните фамилию, имя, телефон, дату рождения и согласие на обработку данных</p>
+                    <button>Зарегистрироваться</button>
+                </form>
             </div>
         </div>
-        <div class="footer"></div>
+        <div class="footer">
+            <p>Анонимный учебный центр ОГРН 1037739249569, зарегестрированна в Минюсте РФ, бланк № 76 08941, учетный №
+                7711010455, дата выдачи 27.12.2010г.</p>
+            <a>"Политика в отношении обработки персональных данных"</a>
+        </div>
     </div>
 </body>
 
